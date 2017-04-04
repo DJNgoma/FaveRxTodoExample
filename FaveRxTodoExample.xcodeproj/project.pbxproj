@@ -12,9 +12,13 @@
 		164B3AD71E9389400053D105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164B3AD51E9389400053D105 /* Main.storyboard */; };
 		164B3AD91E9389400053D105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164B3AD81E9389400053D105 /* Assets.xcassets */; };
 		164B3ADC1E9389400053D105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164B3ADA1E9389400053D105 /* LaunchScreen.storyboard */; };
+		164B3AE41E938A3E0053D105 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B3AE31E938A3E0053D105 /* ViewModel.swift */; };
+		164B3AE61E938A4D0053D105 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164B3AE51E938A4D0053D105 /* Model.swift */; };
+		B3BA9645D88F72B9974110A8 /* Pods_FaveRxTodoExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B59341479670660E4BBD9D4 /* Pods_FaveRxTodoExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13C1A09ADAE733E1DA942B6C /* Pods-FaveRxTodoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaveRxTodoExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaveRxTodoExample/Pods-FaveRxTodoExample.release.xcconfig"; sourceTree = "<group>"; };
 		164B3ACE1E9389400053D105 /* FaveRxTodoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaveRxTodoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164B3AD11E9389400053D105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		164B3AD31E9389400053D105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		164B3AD81E9389400053D105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164B3ADB1E9389400053D105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		164B3ADD1E9389400053D105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164B3AE31E938A3E0053D105 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		164B3AE51E938A4D0053D105 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3B59341479670660E4BBD9D4 /* Pods_FaveRxTodoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaveRxTodoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43945ADCC4835FBA0DFE903E /* Pods-FaveRxTodoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaveRxTodoExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaveRxTodoExample/Pods-FaveRxTodoExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BA9645D88F72B9974110A8 /* Pods_FaveRxTodoExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				164B3AD01E9389400053D105 /* FaveRxTodoExample */,
 				164B3ACF1E9389400053D105 /* Products */,
+				6DDB5326AC603201B95FA6C8 /* Pods */,
+				631821052B139A537EC89C40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				164B3AD11E9389400053D105 /* AppDelegate.swift */,
+				164B3AE51E938A4D0053D105 /* Model.swift */,
 				164B3AD31E9389400053D105 /* ViewController.swift */,
+				164B3AE31E938A3E0053D105 /* ViewModel.swift */,
 				164B3AD51E9389400053D105 /* Main.storyboard */,
 				164B3AD81E9389400053D105 /* Assets.xcassets */,
 				164B3ADA1E9389400053D105 /* LaunchScreen.storyboard */,
 				164B3ADD1E9389400053D105 /* Info.plist */,
 			);
 			path = FaveRxTodoExample;
+			sourceTree = "<group>";
+		};
+		631821052B139A537EC89C40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B59341479670660E4BBD9D4 /* Pods_FaveRxTodoExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DDB5326AC603201B95FA6C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43945ADCC4835FBA0DFE903E /* Pods-FaveRxTodoExample.debug.xcconfig */,
+				13C1A09ADAE733E1DA942B6C /* Pods-FaveRxTodoExample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 164B3AE01E9389400053D105 /* Build configuration list for PBXNativeTarget "FaveRxTodoExample" */;
 			buildPhases = (
+				C1CD8D8A7CBE4ACA624E386A /* [CP] Check Pods Manifest.lock */,
 				164B3ACA1E9389400053D105 /* Sources */,
 				164B3ACB1E9389400053D105 /* Frameworks */,
 				164B3ACC1E9389400053D105 /* Resources */,
+				6974525EC3460B28E22B271E /* [CP] Embed Pods Frameworks */,
+				40D30C4251875CEEC184AFB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40D30C4251875CEEC184AFB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaveRxTodoExample/Pods-FaveRxTodoExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6974525EC3460B28E22B271E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaveRxTodoExample/Pods-FaveRxTodoExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CD8D8A7CBE4ACA624E386A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		164B3ACA1E9389400053D105 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				164B3AD41E9389400053D105 /* ViewController.swift in Sources */,
+				164B3AE41E938A3E0053D105 /* ViewModel.swift in Sources */,
 				164B3AD21E9389400053D105 /* AppDelegate.swift in Sources */,
+				164B3AE61E938A4D0053D105 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +344,7 @@
 		};
 		164B3AE11E9389400053D105 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43945ADCC4835FBA0DFE903E /* Pods-FaveRxTodoExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87LSMH475T;
@@ -274,6 +358,7 @@
 		};
 		164B3AE21E9389400053D105 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C1A09ADAE733E1DA942B6C /* Pods-FaveRxTodoExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 87LSMH475T;
@@ -304,6 +389,7 @@
 				164B3AE21E9389400053D105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
